@@ -4710,23 +4710,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlumnoETI\\.nuget\\packages\\": {},
+    "C:\\Users\\mandarina\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repocrud\\appweb1\\appweb1.csproj",
+      "projectUniqueName": "C:\\Users\\mandarina\\Documents\\proyecto_c\\appweb1\\appweb1.csproj",
       "projectName": "appweb1",
-      "projectPath": "D:\\repocrud\\appweb1\\appweb1.csproj",
-      "packagesPath": "C:\\Users\\AlumnoETI\\.nuget\\packages\\",
-      "outputPath": "D:\\repocrud\\appweb1\\obj\\",
+      "projectPath": "C:\\Users\\mandarina\\Documents\\proyecto_c\\appweb1\\appweb1.csproj",
+      "packagesPath": "C:\\Users\\mandarina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mandarina\\Documents\\proyecto_c\\appweb1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AlumnoETI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mandarina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
