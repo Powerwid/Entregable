@@ -10,7 +10,7 @@ namespace MyApp.Namespace
         private readonly AppDbContext _ctx;
         public IndexModel(AppDbContext ctx)
         {
-            _ctx=ctx;
+            _ctx = ctx;
         }
         public List<Cliente> Clientes { get; set; }
         public void OnGet()

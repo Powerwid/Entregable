@@ -6,7 +6,7 @@
 <div class="container">
     <h1>Listado de Clientes </h1>
     <hr>    
-    <table>    
+    <table class="table">    
         <thead>
             <tr>
                 <td>Id</td>
@@ -16,14 +16,14 @@
             </tr>
         </thead>
         <tbody>
-           @foreach(var c in Model.Clientes){
-                <tr>
-                    <td>@c.IdCliente</td>
-                    <td>@c.Nombres</td>
-                    <td>@c.Apellidos</td>
-                    <td>@c.Dni</td>
-                </tr>
-           } 
+        @foreach(var c in Model.Clientes){
+            <tr>
+                <td>@c.IdCliente</td>
+                <td>@c.Nombres</td>
+                <td>@c.Apellidos</td>
+                <td>@c.Dni</td>
+            </tr>
+        } 
         </tbody>
     </table>    
 </div> 
