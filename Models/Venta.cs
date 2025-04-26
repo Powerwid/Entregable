@@ -7,17 +7,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace appweb1.Modelos
 {
-    public class Cliente
+    public class Venta
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int IdCliente { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public string Dni { get; set; }
-        public string Correo { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
+        public int IdVenta { get; set; }
+        public int UsuarioIdUsuario { get; set; }
+        public int ClienteIdCliente { get; set; }
+        public decimal MontoTotal { get; set; }
+        public DateTime FechaVenta { get; set; }
         public string Estado { get; set; }
     }
 }
