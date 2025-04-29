@@ -4779,30 +4779,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mandarina\\.nuget\\packages\\": {},
-    "D:\\Aplicaciones\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mandarina\\Documents\\Proyectos\\Proyecto_2\\appweb1\\appweb1.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Entregable-main\\Entregable-main\\appweb1.csproj",
       "projectName": "appweb1",
-      "projectPath": "C:\\Users\\mandarina\\Documents\\Proyectos\\Proyecto_2\\appweb1\\appweb1.csproj",
-      "packagesPath": "C:\\Users\\mandarina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mandarina\\Documents\\Proyectos\\Proyecto_2\\appweb1\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Documents\\Entregable-main\\Entregable-main\\appweb1.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Entregable-main\\Entregable-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Aplicaciones\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mandarina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "D:\\Aplicaciones\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "D:\\Aplicaciones\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4871,7 +4872,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Aplicaciones\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

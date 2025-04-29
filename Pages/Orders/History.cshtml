@@ -1,0 +1,26 @@
+@page
+@model OrderHistoryModel
+@{
+  ViewData["Title"] = "Mis Compras";
+}
+<h2>Historial de Compras</h2>
+@if (!Model.Orders.Any())
+{
+  <p>No tienes compras registradas.</p>
+}
+else
+{
+  <div class="list-group">
+  @foreach (var o in Model.Orders)
+  {
+    <a class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">Orden #@o.Id</h5>
+        <small>@o.Date.ToShortDateString()</small>
+      </div>
+      <p class="mb-1">Total: $@o.Total</p>
+      <small>Método de pago: @o.PaymentMethod</small>
+    </a>
+  }
+  </div>
+}

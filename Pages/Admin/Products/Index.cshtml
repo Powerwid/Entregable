@@ -1,0 +1,25 @@
+@page
+@model AdminProductsIndexModel
+@{
+  ViewData["Title"] = "Gestión de Productos";
+}
+<a asp-page="Create" class="btn btn-success mb-3">Nuevo producto</a>
+<table class="table table-striped">
+  <thead>
+    <tr><th>Imagen</th><th>Nombre</th><th>Precio</th><th></th></tr>
+  </thead>
+  <tbody>
+  @foreach (var p in Model.Products)
+  {
+    <tr>
+      <td><img src="@p.ImageUrl" width="60" /></td>
+      <td>@p.Name</td>
+      <td>$@p.Price</td>
+      <td>
+        <a asp-page="Edit" asp-route-id="@p.Id" class="btn btn-sm btn-warning">✏️</a>
+        <a asp-page="Delete" asp-route-id="@p.Id" class="btn btn-sm btn-danger">🗑️</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

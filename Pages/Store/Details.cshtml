@@ -1,0 +1,23 @@
+@page "{id:int}"
+@model DetailsModel
+@{
+    ViewData["Title"] = "Detalles del producto";
+}
+<h2>@Model.Product.Name</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <img src="@Model.Product.ImageUrl" class="img-fluid" alt="@Model.Product.Name" />
+  </div>
+  <div class="col-md-6">
+    <h4>$@Model.Product.Price</h4>
+    <p>@Model.Product.Description</p>
+    <form method="post" asp-page="/Cart/Index" asp-route-addId="@Model.Product.Id">
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Cantidad:</label>
+        <input type="number" id="quantity" name="quantity" value="1" min="1" class="form-control" />
+      </div>
+      <button type="submit" class="btn btn-success">Añadir al carrito</button>
+    </form>
+  </div>
+</div>
